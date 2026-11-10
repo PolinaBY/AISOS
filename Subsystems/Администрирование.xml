@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Subsystem uuid="15f3de81-f7f0-41f6-ac7f-c1f974dd3c36">
+		<Properties>
+			<Name>Администрирование</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Администрирование</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture>
+				<xr:Ref>StdPicture.Setting</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЖурналРегистрации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.НастройкиПользователей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.НерекомендуемаяВерсияПлатформы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОписаниеОбработчиковОбновления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.РезультатыОбновленияПрограммы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВерсииРасширений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВнешниеПользователи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГруппыВнешнихПользователей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГруппыПользователей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ИдентификаторыОбъектовМетаданных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ИдентификаторыОбъектовРасширений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пользователи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ПорядокОбработчиковОбновления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.РежимыВыполненияОбработчиков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.РежимыВыполненияОтложенныхОбработчиков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.СпособыРедактированияЭлектронныхПисем</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.СтатусыОбработчиковОбновления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ФорматыВыгрузкиОбъектов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ФорматыСохраненияОтчетов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ДлительностьОтложенногоОбновления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ПользователиПоПодразделениям</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ПрогрессОтложенногоОбновления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.СведенияОПользователях</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.УчастникиГруппПользователей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.БезопасноеХранилищеДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ВерсииПодсистем</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДлительныеОперации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИдентификаторыОбъектовВерсийРасширений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИерархияГруппПользователей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КэшПрограммныхИнтерфейсов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОбработчикиОбновления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОбработчикиОбновленияОбщихДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОтправленныеСерверныеОповещения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПараметрыРаботыВерсийРасширений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПараметрыРаботыПрограммы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПериодическиеСерверныеОповещения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПотокиОбновления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПрогрессОбновления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СведенияОПользователях</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СвойстваРасширений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СоставыГруппПользователей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.УдалитьБезопасноеХранилищеДанныхОбластейДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ФиксацияОбработкиДанныхОбработчиками</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГруппыДоступа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПрофилиГруппДоступа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ОграничиватьДоступНаУровнеЗаписей</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<HomePageWorkArea xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WorkingAreaTemplate>TwoColumnsVariableWidth</WorkingAreaTemplate>
+	<LeftColumn>
+		<Item>
+			<Form>DataProcessor.КонструкторТестов.Form.Форма</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.АдминистраторСистемы">false</xr:Value>
+				<xr:Value name="Role.Администрирование">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваБСП">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваВнешнихПользователейБСП">false</xr:Value>
+				<xr:Value name="Role.ВыводНаПринтерФайлБуферОбмена">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеАпелляций">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеВнешнихПользователей">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеОрганизаций">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеОтветовGigaChat">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПользователей">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеРезультатовТестирования">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеСоставаТестовПоБлокам">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеСотрудников">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеТестирования">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеТестов">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеТестовСотрудников">false</xr:Value>
+				<xr:Value name="Role.ЗапускAutomation">false</xr:Value>
+				<xr:Value name="Role.ЗапускВебКлиента">false</xr:Value>
+				<xr:Value name="Role.ЗапускВнешнегоСоединения">false</xr:Value>
+				<xr:Value name="Role.ЗапускМобильногоКлиента">false</xr:Value>
+				<xr:Value name="Role.ЗапускТолстогоКлиента">false</xr:Value>
+				<xr:Value name="Role.ЗапускТонкогоКлиента">false</xr:Value>
+				<xr:Value name="Role.ИзменениеУчастниковГруппДоступа">false</xr:Value>
+				<xr:Value name="Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеGigaChat">false</xr:Value>
+				<xr:Value name="Role.Методолог">true</xr:Value>
+				<xr:Value name="Role.ОбновлениеКонфигурацииБазыДанных">false</xr:Value>
+				<xr:Value name="Role.ПодсистемаНСИ">false</xr:Value>
+				<xr:Value name="Role.ПодсистемаРезультатыИАналитика">false</xr:Value>
+				<xr:Value name="Role.ПодсистемаТестирование">false</xr:Value>
+				<xr:Value name="Role.ПодсистемаУправлениеТестами">false</xr:Value>
+				<xr:Value name="Role.ПолныеПрава">false</xr:Value>
+				<xr:Value name="Role.Проверяющий">false</xr:Value>
+				<xr:Value name="Role.ПросмотрЖурналаРегистрации">false</xr:Value>
+				<xr:Value name="Role.ПросмотрОписанияИзмененийПрограммы">false</xr:Value>
+				<xr:Value name="Role.ПросмотрОтчетаАнализРезультатов">false</xr:Value>
+				<xr:Value name="Role.ПросмотрОтчетаРезультатыТестирования">false</xr:Value>
+				<xr:Value name="Role.РаботаСGigaChat">false</xr:Value>
+				<xr:Value name="Role.РежимТехническогоСпециалиста">false</xr:Value>
+				<xr:Value name="Role.РуководительТестирования">false</xr:Value>
+				<xr:Value name="Role.Сотрудник">false</xr:Value>
+				<xr:Value name="Role.СохранениеДанныхПользователя">false</xr:Value>
+				<xr:Value name="Role.УдаленныйДоступБазоваяФункциональность">false</xr:Value>
+				<xr:Value name="Role.ЧтениеАпелляций">false</xr:Value>
+				<xr:Value name="Role.ЧтениеВнешнихПользователей">false</xr:Value>
+				<xr:Value name="Role.ЧтениеОрганизации">false</xr:Value>
+				<xr:Value name="Role.ЧтениеОтветовGigaChat">false</xr:Value>
+				<xr:Value name="Role.ЧтениеРезультатовТестирования">false</xr:Value>
+				<xr:Value name="Role.ЧтениеСоставаТестовПоБлокам">false</xr:Value>
+				<xr:Value name="Role.ЧтениеСотрудников">false</xr:Value>
+				<xr:Value name="Role.ЧтениеТестирования">false</xr:Value>
+				<xr:Value name="Role.ЧтениеТестов">false</xr:Value>
+				<xr:Value name="Role.ЧтениеТестовСотрудников">false</xr:Value>
+			</Visibility>
+		</Item>
+		<Item>
+			<Form>DataProcessor.ИнформативнаяПанельСотрудника.Form.Форма</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.АдминистраторСистемы">false</xr:Value>
+				<xr:Value name="Role.Администрирование">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваБСП">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваВнешнихПользователейБСП">false</xr:Value>
+				<xr:Value name="Role.ВыводНаПринтерФайлБуферОбмена">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеАпелляций">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеВнешнихПользователей">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеОрганизаций">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеОтветовGigaChat">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПользователей">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеРезультатовТестирования">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеСоставаТестовПоБлокам">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеСотрудников">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеТестирования">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеТестов">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеТестовСотрудников">false</xr:Value>
+				<xr:Value name="Role.ЗапускAutomation">false</xr:Value>
+				<xr:Value name="Role.ЗапускВебКлиента">false</xr:Value>
+				<xr:Value name="Role.ЗапускВнешнегоСоединения">false</xr:Value>
+				<xr:Value name="Role.ЗапускМобильногоКлиента">false</xr:Value>
+				<xr:Value name="Role.ЗапускТолстогоКлиента">false</xr:Value>
+				<xr:Value name="Role.ЗапускТонкогоКлиента">false</xr:Value>
+				<xr:Value name="Role.ИзменениеУчастниковГруппДоступа">false</xr:Value>
+				<xr:Value name="Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеGigaChat">false</xr:Value>
+				<xr:Value name="Role.Методолог">false</xr:Value>
+				<xr:Value name="Role.ОбновлениеКонфигурацииБазыДанных">false</xr:Value>
+				<xr:Value name="Role.ПодсистемаНСИ">false</xr:Value>
+				<xr:Value name="Role.ПодсистемаРезультатыИАналитика">false</xr:Value>
+				<xr:Value name="Role.ПодсистемаТестирование">false</xr:Value>
+				<xr:Value name="Role.ПодсистемаУправлениеТестами">false</xr:Value>
+				<xr:Value name="Role.ПолныеПрава">false</xr:Value>
+				<xr:Value name="Role.Проверяющий">false</xr:Value>
+				<xr:Value name="Role.ПросмотрЖурналаРегистрации">false</xr:Value>
+				<xr:Value name="Role.ПросмотрОписанияИзмененийПрограммы">false</xr:Value>
+				<xr:Value name="Role.ПросмотрОтчетаАнализРезультатов">false</xr:Value>
+				<xr:Value name="Role.ПросмотрОтчетаРезультатыТестирования">false</xr:Value>
+				<xr:Value name="Role.РаботаСGigaChat">false</xr:Value>
+				<xr:Value name="Role.РежимТехническогоСпециалиста">false</xr:Value>
+				<xr:Value name="Role.РуководительТестирования">false</xr:Value>
+				<xr:Value name="Role.Сотрудник">true</xr:Value>
+				<xr:Value name="Role.СохранениеДанныхПользователя">false</xr:Value>
+				<xr:Value name="Role.УдаленныйДоступБазоваяФункциональность">false</xr:Value>
+				<xr:Value name="Role.ЧтениеАпелляций">false</xr:Value>
+				<xr:Value name="Role.ЧтениеВнешнихПользователей">false</xr:Value>
+				<xr:Value name="Role.ЧтениеОрганизации">false</xr:Value>
+				<xr:Value name="Role.ЧтениеОтветовGigaChat">false</xr:Value>
+				<xr:Value name="Role.ЧтениеРезультатовТестирования">false</xr:Value>
+				<xr:Value name="Role.ЧтениеСоставаТестовПоБлокам">false</xr:Value>
+				<xr:Value name="Role.ЧтениеСотрудников">false</xr:Value>
+				<xr:Value name="Role.ЧтениеТестирования">false</xr:Value>
+				<xr:Value name="Role.ЧтениеТестов">false</xr:Value>
+				<xr:Value name="Role.ЧтениеТестовСотрудников">false</xr:Value>
+			</Visibility>
+		</Item>
+		<Item>
+			<Form>5e719067-372a-4542-b428-02780b029e93</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.АдминистраторСистемы">false</xr:Value>
+				<xr:Value name="Role.Администрирование">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваБСП">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваВнешнихПользователейБСП">false</xr:Value>
+				<xr:Value name="Role.ВыводНаПринтерФайлБуферОбмена">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеАпелляций">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеВнешнихПользователей">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеОрганизаций">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеОтветовGigaChat">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПользователей">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеРезультатовТестирования">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеСоставаТестовПоБлокам">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеСотрудников">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеТестирования">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеТестов">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеТестовСотрудников">false</xr:Value>
+				<xr:Value name="Role.ЗапускAutomation">false</xr:Value>
+				<xr:Value name="Role.ЗапускВебКлиента">false</xr:Value>
+				<xr:Value name="Role.ЗапускВнешнегоСоединения">false</xr:Value>
+				<xr:Value name="Role.ЗапускМобильногоКлиента">false</xr:Value>
+				<xr:Value name="Role.ЗапускТолстогоКлиента">false</xr:Value>
+				<xr:Value name="Role.ЗапускТонкогоКлиента">false</xr:Value>
+				<xr:Value name="Role.ИзменениеУчастниковГруппДоступа">false</xr:Value>
+				<xr:Value name="Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеGigaChat">false</xr:Value>
+				<xr:Value name="Role.Методолог">false</xr:Value>
+				<xr:Value name="Role.ОбновлениеКонфигурацииБазыДанных">false</xr:Value>
+				<xr:Value name="0d86bf5c-a19b-4084-b17f-33fe95862e82">false</xr:Value>
+				<xr:Value name="Role.ПодсистемаНСИ">false</xr:Value>
+				<xr:Value name="Role.ПодсистемаРезультатыИАналитика">false</xr:Value>
+				<xr:Value name="Role.ПодсистемаТестирование">false</xr:Value>
+				<xr:Value name="Role.ПодсистемаУправлениеТестами">false</xr:Value>
+				<xr:Value name="Role.ПолныеПрава">false</xr:Value>
+				<xr:Value name="Role.Проверяющий">true</xr:Value>
+				<xr:Value name="Role.ПросмотрЖурналаРегистрации">false</xr:Value>
+				<xr:Value name="Role.ПросмотрОписанияИзмененийПрограммы">false</xr:Value>
+				<xr:Value name="Role.РаботаСGigaChat">false</xr:Value>
+				<xr:Value name="Role.РежимТехническогоСпециалиста">false</xr:Value>
+				<xr:Value name="Role.РуководительТестирования">false</xr:Value>
+				<xr:Value name="Role.Сотрудник">false</xr:Value>
+				<xr:Value name="Role.СохранениеДанныхПользователя">false</xr:Value>
+				<xr:Value name="Role.УдаленныйДоступБазоваяФункциональность">false</xr:Value>
+				<xr:Value name="Role.ЧтениеАпелляций">false</xr:Value>
+				<xr:Value name="Role.ЧтениеВнешнихПользователей">false</xr:Value>
+				<xr:Value name="Role.ЧтениеОрганизации">false</xr:Value>
+				<xr:Value name="Role.ЧтениеОтветовGigaChat">false</xr:Value>
+				<xr:Value name="Role.ЧтениеРезультатовТестирования">false</xr:Value>
+				<xr:Value name="Role.ЧтениеСоставаТестовПоБлокам">false</xr:Value>
+				<xr:Value name="Role.ЧтениеСотрудников">false</xr:Value>
+				<xr:Value name="Role.ЧтениеТестирования">false</xr:Value>
+				<xr:Value name="Role.ЧтениеТестов">false</xr:Value>
+				<xr:Value name="Role.ЧтениеТестовСотрудников">false</xr:Value>
+			</Visibility>
+		</Item>
+		<Item>
+			<Form>DataProcessor.СтатистикаПрохожденияТестов.Form.Форма</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.АдминистраторСистемы">false</xr:Value>
+				<xr:Value name="Role.Администрирование">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваБСП">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваВнешнихПользователейБСП">false</xr:Value>
+				<xr:Value name="Role.ВыводНаПринтерФайлБуферОбмена">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеАпелляций">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеВнешнихПользователей">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеОрганизаций">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеОтветовGigaChat">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПользователей">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеРезультатовТестирования">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеСоставаТестовПоБлокам">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеСотрудников">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеТестирования">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеТестов">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеТестовСотрудников">false</xr:Value>
+				<xr:Value name="Role.ЗапускAutomation">false</xr:Value>
+				<xr:Value name="Role.ЗапускВебКлиента">false</xr:Value>
+				<xr:Value name="Role.ЗапускВнешнегоСоединения">false</xr:Value>
+				<xr:Value name="Role.ЗапускМобильногоКлиента">false</xr:Value>
+				<xr:Value name="Role.ЗапускТолстогоКлиента">false</xr:Value>
+				<xr:Value name="Role.ЗапускТонкогоКлиента">false</xr:Value>
+				<xr:Value name="Role.ИзменениеУчастниковГруппДоступа">false</xr:Value>
+				<xr:Value name="Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеGigaChat">false</xr:Value>
+				<xr:Value name="Role.Методолог">false</xr:Value>
+				<xr:Value name="Role.ОбновлениеКонфигурацииБазыДанных">false</xr:Value>
+				<xr:Value name="Role.ПодсистемаНСИ">false</xr:Value>
+				<xr:Value name="Role.ПодсистемаРезультатыИАналитика">false</xr:Value>
+				<xr:Value name="Role.ПодсистемаТестирование">false</xr:Value>
+				<xr:Value name="Role.ПодсистемаУправлениеТестами">false</xr:Value>
+				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
+				<xr:Value name="Role.Проверяющий">false</xr:Value>
+				<xr:Value name="Role.ПросмотрЖурналаРегистрации">false</xr:Value>
+				<xr:Value name="Role.ПросмотрОписанияИзмененийПрограммы">false</xr:Value>
+				<xr:Value name="Role.ПросмотрОтчетаАнализРезультатов">false</xr:Value>
+				<xr:Value name="Role.ПросмотрОтчетаРезультатыТестирования">false</xr:Value>
+				<xr:Value name="Role.РаботаСGigaChat">false</xr:Value>
+				<xr:Value name="Role.РежимТехническогоСпециалиста">false</xr:Value>
+				<xr:Value name="Role.РуководительТестирования">true</xr:Value>
+				<xr:Value name="Role.Сотрудник">false</xr:Value>
+				<xr:Value name="Role.СохранениеДанныхПользователя">false</xr:Value>
+				<xr:Value name="Role.УдаленныйДоступБазоваяФункциональность">false</xr:Value>
+				<xr:Value name="Role.ЧтениеАпелляций">false</xr:Value>
+				<xr:Value name="Role.ЧтениеВнешнихПользователей">false</xr:Value>
+				<xr:Value name="Role.ЧтениеОрганизации">false</xr:Value>
+				<xr:Value name="Role.ЧтениеОтветовGigaChat">false</xr:Value>
+				<xr:Value name="Role.ЧтениеРезультатовТестирования">false</xr:Value>
+				<xr:Value name="Role.ЧтениеСоставаТестовПоБлокам">false</xr:Value>
+				<xr:Value name="Role.ЧтениеСотрудников">false</xr:Value>
+				<xr:Value name="Role.ЧтениеТестирования">false</xr:Value>
+				<xr:Value name="Role.ЧтениеТестов">false</xr:Value>
+				<xr:Value name="Role.ЧтениеТестовСотрудников">false</xr:Value>
+			</Visibility>
+		</Item>
+	</LeftColumn>
+	<RightColumn>
+		<Item>
+			<Form>CommonForm.ВыборОрганизации</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+				<xr:Value name="Role.АдминистраторСистемы">false</xr:Value>
+				<xr:Value name="Role.Администрирование">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваБСП">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваВнешнихПользователейБСП">false</xr:Value>
+				<xr:Value name="Role.ВыводНаПринтерФайлБуферОбмена">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеАпелляций">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеВнешнихПользователей">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеОрганизаций">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеОтветовGigaChat">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПользователей">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеРезультатовТестирования">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеСоставаТестовПоБлокам">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеСотрудников">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеТестирования">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеТестов">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеТестовСотрудников">false</xr:Value>
+				<xr:Value name="Role.ЗапускAutomation">false</xr:Value>
+				<xr:Value name="Role.ЗапускВебКлиента">false</xr:Value>
+				<xr:Value name="Role.ЗапускВнешнегоСоединения">false</xr:Value>
+				<xr:Value name="Role.ЗапускМобильногоКлиента">false</xr:Value>
+				<xr:Value name="Role.ЗапускТолстогоКлиента">false</xr:Value>
+				<xr:Value name="Role.ЗапускТонкогоКлиента">false</xr:Value>
+				<xr:Value name="Role.ИзменениеУчастниковГруппДоступа">false</xr:Value>
+				<xr:Value name="Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеGigaChat">false</xr:Value>
+				<xr:Value name="Role.Методолог">true</xr:Value>
+				<xr:Value name="Role.ОбновлениеКонфигурацииБазыДанных">false</xr:Value>
+				<xr:Value name="Role.ПодсистемаНСИ">false</xr:Value>
+				<xr:Value name="Role.ПодсистемаРезультатыИАналитика">false</xr:Value>
+				<xr:Value name="Role.ПодсистемаТестирование">false</xr:Value>
+				<xr:Value name="Role.ПодсистемаУправлениеТестами">false</xr:Value>
+				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
+				<xr:Value name="Role.Проверяющий">true</xr:Value>
+				<xr:Value name="Role.ПросмотрЖурналаРегистрации">false</xr:Value>
+				<xr:Value name="Role.ПросмотрОписанияИзмененийПрограммы">false</xr:Value>
+				<xr:Value name="Role.ПросмотрОтчетаАнализРезультатов">false</xr:Value>
+				<xr:Value name="Role.ПросмотрОтчетаРезультатыТестирования">false</xr:Value>
+				<xr:Value name="Role.РаботаСGigaChat">false</xr:Value>
+				<xr:Value name="Role.РежимТехническогоСпециалиста">false</xr:Value>
+				<xr:Value name="Role.РуководительТестирования">true</xr:Value>
+				<xr:Value name="Role.Сотрудник">false</xr:Value>
+				<xr:Value name="Role.СохранениеДанныхПользователя">false</xr:Value>
+				<xr:Value name="Role.УдаленныйДоступБазоваяФункциональность">false</xr:Value>
+				<xr:Value name="Role.ЧтениеАпелляций">false</xr:Value>
+				<xr:Value name="Role.ЧтениеВнешнихПользователей">false</xr:Value>
+				<xr:Value name="Role.ЧтениеОрганизации">false</xr:Value>
+				<xr:Value name="Role.ЧтениеОтветовGigaChat">false</xr:Value>
+				<xr:Value name="Role.ЧтениеРезультатовТестирования">false</xr:Value>
+				<xr:Value name="Role.ЧтениеСоставаТестовПоБлокам">false</xr:Value>
+				<xr:Value name="Role.ЧтениеСотрудников">false</xr:Value>
+				<xr:Value name="Role.ЧтениеТестирования">false</xr:Value>
+				<xr:Value name="Role.ЧтениеТестов">false</xr:Value>
+				<xr:Value name="Role.ЧтениеТестовСотрудников">false</xr:Value>
+			</Visibility>
+		</Item>
+	</RightColumn>
+</HomePageWorkArea>

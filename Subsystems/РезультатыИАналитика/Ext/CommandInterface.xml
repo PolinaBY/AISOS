@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<CommandsVisibility>
+		<Command name="Document.Апелляция.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.Тестирование.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ОтветыGigaChat.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.РезультатыТестирования.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="Document.Апелляция.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Основные</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.Тестирование.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Основные</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.ОтветыGigaChat.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.РезультатыТестирования.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="Document.Апелляция.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Основные</CommandGroup>
+		</Command>
+		<Command name="Document.Тестирование.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Основные</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ОтветыGigaChat.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.РезультатыТестирования.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>CommandGroup.ШтатнаяСтруктура</Group>
+		<Group>CommandGroup.Основные</Group>
+		<Group>CommandGroup.Аналитика</Group>
+		<Group>CommandGroup.НастройкаТестов</Group>
+	</GroupsOrder>
+</CommandInterface>

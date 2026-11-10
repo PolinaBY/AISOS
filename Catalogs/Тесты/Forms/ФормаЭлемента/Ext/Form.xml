@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Width>100</Width>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Основное" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основное</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ОсновноеРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<UsualGroup name="Шапка" id="158">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Шапка</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Шапка</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ШапкаРасширеннаяПодсказка" id="159"/>
+					<ChildItems>
+						<UsualGroup name="Тест" id="156">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Тест</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Тест</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ТестРасширеннаяПодсказка" id="157"/>
+							<ChildItems>
+								<InputField name="Наименование" id="7">
+									<DataPath>Объект.Description</DataPath>
+									<TitleLocation>Top</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>27</Width>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="НаименованиеКонтекстноеМеню" id="8"/>
+									<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="9"/>
+								</InputField>
+								<InputField name="Родитель" id="11">
+									<DataPath>Объект.Parent</DataPath>
+									<TitleLocation>Top</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="РодительКонтекстноеМеню" id="12"/>
+									<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="13"/>
+								</InputField>
+								<InputField name="Приоритет" id="23">
+									<DataPath>Объект.Приоритет</DataPath>
+									<TitleLocation>Top</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Вводится для определения порядка прохождения тестов</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>5</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<SpinButton>true</SpinButton>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ПриоритетКонтекстноеМеню" id="24"/>
+									<ExtendedTooltip name="ПриоритетРасширеннаяПодсказка" id="25"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ОрганизацияПодразделение" id="106">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Организация подразделение</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Организация подразделение</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ОрганизацияПодразделениеРасширеннаяПодсказка" id="107"/>
+							<ChildItems>
+								<InputField name="Организация" id="15">
+									<DataPath>Объект.Организация</DataPath>
+									<TitleLocation>Top</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<AutoShowClearButtonMode>FilledOnly</AutoShowClearButtonMode>
+									<ContextMenu name="ОрганизацияКонтекстноеМеню" id="16"/>
+									<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="17"/>
+								</InputField>
+								<InputField name="Подразделение" id="19">
+									<DataPath>Объект.Подразделение</DataPath>
+									<TitleLocation>Top</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ChoiceParameterLinks>
+										<xr:Link>
+											<xr:Name>Отбор.Владелец</xr:Name>
+											<xr:DataPath xsi:type="xs:string">Объект.Организация</xr:DataPath>
+											<xr:ValueChange>Clear</xr:ValueChange>
+										</xr:Link>
+									</ChoiceParameterLinks>
+									<AutoShowClearButtonMode>FilledOnly</AutoShowClearButtonMode>
+									<ContextMenu name="ПодразделениеКонтекстноеМеню" id="20"/>
+									<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="21"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="СоставТеста" id="27">
+			<Representation>List</Representation>
+			<AutoMaxHeight>false</AutoMaxHeight>
+			<HorizontalLines>false</HorizontalLines>
+			<VerticalLines>false</VerticalLines>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.СоставТеста</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="СоставТестаКонтекстноеМеню" id="28"/>
+			<AutoCommandBar name="СоставТестаКоманднаяПанель" id="29"/>
+			<ExtendedTooltip name="СоставТестаРасширеннаяПодсказка" id="30"/>
+			<SearchStringAddition name="СоставТестаСтрокаПоиска" id="31">
+				<AdditionSource>
+					<Item>СоставТеста</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СоставТестаСтрокаПоискаКонтекстноеМеню" id="32"/>
+				<ExtendedTooltip name="СоставТестаСтрокаПоискаРасширеннаяПодсказка" id="33"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СоставТестаСостояниеПросмотра" id="34">
+				<AdditionSource>
+					<Item>СоставТеста</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СоставТестаСостояниеПросмотраКонтекстноеМеню" id="35"/>
+				<ExtendedTooltip name="СоставТестаСостояниеПросмотраРасширеннаяПодсказка" id="36"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СоставТестаУправлениеПоиском" id="37">
+				<AdditionSource>
+					<Item>СоставТеста</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СоставТестаУправлениеПоискомКонтекстноеМеню" id="38"/>
+				<ExtendedTooltip name="СоставТестаУправлениеПоискомРасширеннаяПодсказка" id="39"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="СоставТестаНомерСтроки" id="48">
+					<DataPath>Объект.СоставТеста.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СоставТестаНомерСтрокиКонтекстноеМеню" id="49"/>
+					<ExtendedTooltip name="СоставТестаНомерСтрокиРасширеннаяПодсказка" id="50"/>
+				</LabelField>
+				<InputField name="СоставТестаБлокВопросов" id="52">
+					<DataPath>Объект.СоставТеста.БлокВопросов</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СоставТестаБлокВопросовКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="СоставТестаБлокВопросовРасширеннаяПодсказка" id="54"/>
+					<Events>
+						<Event name="OnChange">СоставТестаБлокВопросовПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="СоставТестаКоличествоВопросов" id="56">
+					<DataPath>Объект.СоставТеста.КоличествоВопросов</DataPath>
+					<Enabled>false</Enabled>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СоставТестаКоличествоВопросовКонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="СоставТестаКоличествоВопросовРасширеннаяПодсказка" id="58"/>
+				</InputField>
+				<InputField name="СоставТестаПроходнойПроцент" id="60">
+					<DataPath>Объект.СоставТеста.ПроходнойПроцент</DataPath>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Процент, при котором тест будет считаться успешно сданным</v8:content>
+						</v8:item>
+					</ToolTip>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СоставТестаПроходнойПроцентКонтекстноеМеню" id="61"/>
+					<ExtendedTooltip name="СоставТестаПроходнойПроцентРасширеннаяПодсказка" id="62"/>
+				</InputField>
+				<CheckBoxField name="СоставТестаСлучайныйПорядок" id="64">
+					<DataPath>Объект.СоставТеста.СлучайныйПорядок</DataPath>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>При включении вопросы в тесте будут попадатья случайным образом</v8:content>
+						</v8:item>
+					</ToolTip>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СоставТестаСлучайныйПорядокКонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="СоставТестаСлучайныйПорядокРасширеннаяПодсказка" id="66"/>
+				</CheckBoxField>
+				<CheckBoxField name="СоставТестаВключатьВТест" id="68">
+					<DataPath>Объект.СоставТеста.ВключатьВТест</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СоставТестаВключатьВТестКонтекстноеМеню" id="69"/>
+					<ExtendedTooltip name="СоставТестаВключатьВТестРасширеннаяПодсказка" id="70"/>
+				</CheckBoxField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Тесты</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>InformationRegister.СоставТестовПоБлокам.StandardCommand.OpenByValue.Тест</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
+</Form>

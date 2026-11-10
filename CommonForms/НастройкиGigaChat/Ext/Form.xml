@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Основное" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основное</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ОсновноеРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаПолучитьКлюч" id="34">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа получить ключ</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа получить ключ</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПолучитьКлючРасширеннаяПодсказка" id="35"/>
+					<ChildItems>
+						<InputField name="AuthorizationKey" id="3">
+							<DataPath>НаборКонстант.AuthorizationKey</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="AuthorizationKeyКонтекстноеМеню" id="4"/>
+							<ExtendedTooltip name="AuthorizationKeyРасширеннаяПодсказка" id="5"/>
+						</InputField>
+						<Button name="Получить" id="32">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.Получить</CommandName>
+							<ExtendedTooltip name="ПолучитьРасширеннаяПодсказка" id="33"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<InputField name="Scope" id="7">
+					<DataPath>НаборКонстант.Scope</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>44</MaxWidth>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ScopeКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ScopeРасширеннаяПодсказка" id="9"/>
+				</InputField>
+				<InputField name="URLАвторизации" id="11">
+					<DataPath>НаборКонстант.URLАвторизации</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="URLАвторизацииКонтекстноеМеню" id="12"/>
+					<ExtendedTooltip name="URLАвторизацииРасширеннаяПодсказка" id="13"/>
+				</InputField>
+				<InputField name="URLAPI" id="15">
+					<DataPath>НаборКонстант.URLAPI</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="URLAPIКонтекстноеМеню" id="16"/>
+					<ExtendedTooltip name="URLAPIРасширеннаяПодсказка" id="17"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<CheckBoxField name="НеИспользоватьGigaChat" id="23">
+			<DataPath>НаборКонстант.НеИспользоватьGigaChat</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="НеИспользоватьGigaChatКонтекстноеМеню" id="24"/>
+			<ExtendedTooltip name="НеИспользоватьGigaChatРасширеннаяПодсказка" id="25"/>
+		</CheckBoxField>
+		<InputField name="КоличествоПопытокГенерацииGigaChat" id="46">
+			<DataPath>НаборКонстант.КоличествоПопытокГенерацииGigaChat</DataPath>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество запросов к Giga Chat (рекомендуемо не менее 3)</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ToolTipRepresentation>Button</ToolTipRepresentation>
+			<SpinButton>true</SpinButton>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<MinValue xsi:type="xs:decimal">1</MinValue>
+			<ContextMenu name="КоличествоПопытокГенерацииGigaChatКонтекстноеМеню" id="47"/>
+			<ExtendedTooltip name="КоличествоПопытокГенерацииGigaChatРасширеннаяПодсказка" id="48"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="НаборКонстант" id="1">
+			<Type>
+				<v8:Type>cfg:ConstantsSet</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Получить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Получить</Action>
+		</Command>
+	</Commands>
+</Form>

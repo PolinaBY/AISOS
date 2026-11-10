@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="8b5c7e0c-a6cb-45b0-97e7-6494a0e45b60">
+		<Name>GIGACHAT_API_B2B</Name>
+		<Code>000000002</Code>
+		<Description>GIGACHAT_API_B2B</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="69313af7-d194-4f42-9e6c-e6dc78df32b0">
+		<Name>GIGACHAT_API_CORP</Name>
+		<Code>000000003</Code>
+		<Description>GIGACHAT_API_CORP</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="74368785-ba5a-4cd8-b5d6-06ccb480f8e7">
+		<Name>GIGACHAT_API_PERS</Name>
+		<Code>000000001</Code>
+		<Description>GIGACHAT_API_PERS</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

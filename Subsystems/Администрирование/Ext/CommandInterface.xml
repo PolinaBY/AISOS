@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<CommandsVisibility>
+		<Command name="Catalog.ВнешниеПользователи.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ГруппыДоступа.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ГруппыВнешнихПользователей.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ГруппыПользователей.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Пользователи.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ПрофилиГруппДоступа.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ДлительныеОперации.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.КэшПрограммныхИнтерфейсов.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ОбработчикиОбновления.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ОбработчикиОбновленияОбщихДанных.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ОтправленныеСерверныеОповещения.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ПериодическиеСерверныеОповещения.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ПотокиОбновления.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ПрогрессОбновления.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.СвойстваРасширений.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ФиксацияОбработкиДанныхОбработчиками.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="Catalog.ВнешниеПользователи.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.НастройкаПользователей</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.ГруппыДоступа.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.НастройкаПользователей</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.ГруппыВнешнихПользователей.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.НастройкаПользователей</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.ГруппыПользователей.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.НастройкаПользователей</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.Пользователи.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.НастройкаПользователей</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.ПрофилиГруппДоступа.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.НастройкаПользователей</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.ДлительныеОперации.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.КэшПрограммныхИнтерфейсов.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.ОбработчикиОбновления.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.ОбработчикиОбновленияОбщихДанных.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.ОтправленныеСерверныеОповещения.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.ПериодическиеСерверныеОповещения.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.ПотокиОбновления.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.ПрогрессОбновления.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.СвойстваРасширений.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.ФиксацияОбработкиДанныхОбработчиками.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="DataProcessor.ЖурналРегистрации.Command.ЖурналРегистрации">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ОписаниеОбработчиковОбновления.Command.ОписаниеОбработчиковОбновления">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.ВнешниеПользователи.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.НастройкаПользователей</CommandGroup>
+		</Command>
+		<Command name="Catalog.ГруппыДоступа.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.НастройкаПользователей</CommandGroup>
+		</Command>
+		<Command name="Catalog.ГруппыВнешнихПользователей.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.НастройкаПользователей</CommandGroup>
+		</Command>
+		<Command name="Catalog.ГруппыПользователей.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.НастройкаПользователей</CommandGroup>
+		</Command>
+		<Command name="Catalog.Пользователи.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.НастройкаПользователей</CommandGroup>
+		</Command>
+		<Command name="Catalog.ПрофилиГруппДоступа.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.НастройкаПользователей</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ДлительныеОперации.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.КэшПрограммныхИнтерфейсов.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ОбработчикиОбновления.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ОбработчикиОбновленияОбщихДанных.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ОтправленныеСерверныеОповещения.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ПериодическиеСерверныеОповещения.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ПотокиОбновления.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ПрогрессОбновления.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.СвойстваРасширений.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ФиксацияОбработкиДанныхОбработчиками.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelImportant</Group>
+		<Group>NavigationPanelOrdinary</Group>
+		<Group>CommandGroup.НастройкаПользователей</Group>
+		<Group>CommandGroup.Аналитика</Group>
+		<Group>CommandGroup.НастройкаТестов</Group>
+	</GroupsOrder>
+</CommandInterface>
